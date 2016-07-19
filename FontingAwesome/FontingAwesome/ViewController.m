@@ -39,7 +39,7 @@
     self.notification.notificationStyle = CWNotificationStyleNavigationBarNotification; // make notification BIG
     self.notification.notificationLabelBackgroundColor = [UIColor redColor];
     
-    [self.notification displayNotificationWithMessage:[NSString stringWithFormat:@"Madina comming! %@!", @"instructors RUN!"] forDuration:1.0f];
+    [self.notification displayNotificationWithMessage:[NSString stringWithFormat:@"Every day is %@!", @"a new day!"] forDuration:1.0f];
 }
 
 
