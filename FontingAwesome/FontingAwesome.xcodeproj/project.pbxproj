@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		360CF2BDD59BF9AE0DF9B97E /* libPods-FontingAwesome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 419C76A0937801926B90EB6C /* libPods-FontingAwesome.a */; };
+		D48F195D1D3DDE650049EE2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D48F195C1D3DDE650049EE2A /* main.m */; };
+		D48F19601D3DDE650049EE2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D48F195F1D3DDE650049EE2A /* AppDelegate.m */; };
+		D48F19631D3DDE650049EE2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48F19621D3DDE650049EE2A /* ViewController.m */; };
+		D48F19661D3DDE650049EE2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48F19641D3DDE650049EE2A /* Main.storyboard */; };
+		D48F19681D3DDE650049EE2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48F19671D3DDE650049EE2A /* Assets.xcassets */; };
+		D48F196B1D3DDE650049EE2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48F19691D3DDE650049EE2A /* LaunchScreen.storyboard */; };
+		D48F19761D3DDE650049EE2A /* FontingAwesomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D48F19751D3DDE650049EE2A /* FontingAwesomeTests.m */; };
+		D48F19811D3DDE650049EE2A /* FontingAwesomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D48F19801D3DDE650049EE2A /* FontingAwesomeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D48F19721D3DDE650049EE2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D48F19501D3DDE650049EE2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D48F19571D3DDE650049EE2A;
+			remoteInfo = FontingAwesome;
+		};
+		D48F197D1D3DDE650049EE2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D48F19501D3DDE650049EE2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D48F19571D3DDE650049EE2A;
+			remoteInfo = FontingAwesome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DABB7EFB9B24D06FE3C33A2 /* Pods-FontingAwesome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontingAwesome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FontingAwesome/Pods-FontingAwesome.debug.xcconfig"; sourceTree = "<group>"; };
+		3BB414B592933127639425DF /* Pods-FontingAwesome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontingAwesome.release.xcconfig"; path = "Pods/Target Support Files/Pods-FontingAwesome/Pods-FontingAwesome.release.xcconfig"; sourceTree = "<group>"; };
+		419C76A0937801926B90EB6C /* libPods-FontingAwesome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FontingAwesome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48F19581D3DDE650049EE2A /* FontingAwesome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontingAwesome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48F195C1D3DDE650049EE2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D48F195E1D3DDE650049EE2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D48F195F1D3DDE650049EE2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D48F19611D3DDE650049EE2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D48F19621D3DDE650049EE2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D48F19651D3DDE650049EE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D48F19671D3DDE650049EE2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D48F196A1D3DDE650049EE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D48F196C1D3DDE650049EE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48F19711D3DDE650049EE2A /* FontingAwesomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontingAwesomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48F19751D3DDE650049EE2A /* FontingAwesomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontingAwesomeTests.m; sourceTree = "<group>"; };
+		D48F19771D3DDE650049EE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48F197C1D3DDE650049EE2A /* FontingAwesomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontingAwesomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48F19801D3DDE650049EE2A /* FontingAwesomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontingAwesomeUITests.m; sourceTree = "<group>"; };
+		D48F19821D3DDE650049EE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D48F19551D3DDE650049EE2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360CF2BDD59BF9AE0DF9B97E /* libPods-FontingAwesome.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48F196E1D3DDE650049EE2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48F19791D3DDE650049EE2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		147F2BEB7338A0E75A64A8A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				419C76A0937801926B90EB6C /* libPods-FontingAwesome.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE4E177119351AC00169F834 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DABB7EFB9B24D06FE3C33A2 /* Pods-FontingAwesome.debug.xcconfig */,
+				3BB414B592933127639425DF /* Pods-FontingAwesome.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D48F194F1D3DDE650049EE2A = {
+			isa = PBXGroup;
+			children = (
+				D48F195A1D3DDE650049EE2A /* FontingAwesome */,
+				D48F19741D3DDE650049EE2A /* FontingAwesomeTests */,
+				D48F197F1D3DDE650049EE2A /* FontingAwesomeUITests */,
+				D48F19591D3DDE650049EE2A /* Products */,
+				AE4E177119351AC00169F834 /* Pods */,
+				147F2BEB7338A0E75A64A8A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D48F19591D3DDE650049EE2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D48F19581D3DDE650049EE2A /* FontingAwesome.app */,
+				D48F19711D3DDE650049EE2A /* FontingAwesomeTests.xctest */,
+				D48F197C1D3DDE650049EE2A /* FontingAwesomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D48F195A1D3DDE650049EE2A /* FontingAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				D48F195E1D3DDE650049EE2A /* AppDelegate.h */,
+				D48F195F1D3DDE650049EE2A /* AppDelegate.m */,
+				D48F19611D3DDE650049EE2A /* ViewController.h */,
+				D48F19621D3DDE650049EE2A /* ViewController.m */,
+				D48F19641D3DDE650049EE2A /* Main.storyboard */,
+				D48F19671D3DDE650049EE2A /* Assets.xcassets */,
+				D48F19691D3DDE650049EE2A /* LaunchScreen.storyboard */,
+				D48F196C1D3DDE650049EE2A /* Info.plist */,
+				D48F195B1D3DDE650049EE2A /* Supporting Files */,
+			);
+			path = FontingAwesome;
+			sourceTree = "<group>";
+		};
+		D48F195B1D3DDE650049EE2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D48F195C1D3DDE650049EE2A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D48F19741D3DDE650049EE2A /* FontingAwesomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D48F19751D3DDE650049EE2A /* FontingAwesomeTests.m */,
+				D48F19771D3DDE650049EE2A /* Info.plist */,
+			);
+			path = FontingAwesomeTests;
+			sourceTree = "<group>";
+		};
+		D48F197F1D3DDE650049EE2A /* FontingAwesomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D48F19801D3DDE650049EE2A /* FontingAwesomeUITests.m */,
+				D48F19821D3DDE650049EE2A /* Info.plist */,
+			);
+			path = FontingAwesomeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D48F19571D3DDE650049EE2A /* FontingAwesome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48F19851D3DDE650049EE2A /* Build configuration list for PBXNativeTarget "FontingAwesome" */;
+			buildPhases = (
+				96C5926B7E3F8385C064134F /* [CP] Check Pods Manifest.lock */,
+				D48F19541D3DDE650049EE2A /* Sources */,
+				D48F19551D3DDE650049EE2A /* Frameworks */,
+				D48F19561D3DDE650049EE2A /* Resources */,
+				3621FDE4BEF6220C14AACCD4 /* [CP] Embed Pods Frameworks */,
+				54DA0DE11AB32EE994D10B49 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontingAwesome;
+			productName = FontingAwesome;
+			productReference = D48F19581D3DDE650049EE2A /* FontingAwesome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D48F19701D3DDE650049EE2A /* FontingAwesomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48F19881D3DDE650049EE2A /* Build configuration list for PBXNativeTarget "FontingAwesomeTests" */;
+			buildPhases = (
+				D48F196D1D3DDE650049EE2A /* Sources */,
+				D48F196E1D3DDE650049EE2A /* Frameworks */,
+				D48F196F1D3DDE650049EE2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D48F19731D3DDE650049EE2A /* PBXTargetDependency */,
+			);
+			name = FontingAwesomeTests;
+			productName = FontingAwesomeTests;
+			productReference = D48F19711D3DDE650049EE2A /* FontingAwesomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D48F197B1D3DDE650049EE2A /* FontingAwesomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48F198B1D3DDE650049EE2A /* Build configuration list for PBXNativeTarget "FontingAwesomeUITests" */;
+			buildPhases = (
+				D48F19781D3DDE650049EE2A /* Sources */,
+				D48F19791D3DDE650049EE2A /* Frameworks */,
+				D48F197A1D3DDE650049EE2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D48F197E1D3DDE650049EE2A /* PBXTargetDependency */,
+			);
+			name = FontingAwesomeUITests;
+			productName = FontingAwesomeUITests;
+			productReference = D48F197C1D3DDE650049EE2A /* FontingAwesomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D48F19501D3DDE650049EE2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Madina Ibrahim";
+				TargetAttributes = {
+					D48F19571D3DDE650049EE2A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D48F19701D3DDE650049EE2A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D48F19571D3DDE650049EE2A;
+					};
+					D48F197B1D3DDE650049EE2A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D48F19571D3DDE650049EE2A;
+					};
+				};
+			};
+			buildConfigurationList = D48F19531D3DDE650049EE2A /* Build configuration list for PBXProject "FontingAwesome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D48F194F1D3DDE650049EE2A;
+			productRefGroup = D48F19591D3DDE650049EE2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D48F19571D3DDE650049EE2A /* FontingAwesome */,
+				D48F19701D3DDE650049EE2A /* FontingAwesomeTests */,
+				D48F197B1D3DDE650049EE2A /* FontingAwesomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D48F19561D3DDE650049EE2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48F196B1D3DDE650049EE2A /* LaunchScreen.storyboard in Resources */,
+				D48F19681D3DDE650049EE2A /* Assets.xcassets in Resources */,
+				D48F19661D3DDE650049EE2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48F196F1D3DDE650049EE2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48F197A1D3DDE650049EE2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3621FDE4BEF6220C14AACCD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FontingAwesome/Pods-FontingAwesome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54DA0DE11AB32EE994D10B49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FontingAwesome/Pods-FontingAwesome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96C5926B7E3F8385C064134F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D48F19541D3DDE650049EE2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48F19631D3DDE650049EE2A /* ViewController.m in Sources */,
+				D48F19601D3DDE650049EE2A /* AppDelegate.m in Sources */,
+				D48F195D1D3DDE650049EE2A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48F196D1D3DDE650049EE2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48F19761D3DDE650049EE2A /* FontingAwesomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48F19781D3DDE650049EE2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48F19811D3DDE650049EE2A /* FontingAwesomeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D48F19731D3DDE650049EE2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D48F19571D3DDE650049EE2A /* FontingAwesome */;
+			targetProxy = D48F19721D3DDE650049EE2A /* PBXContainerItemProxy */;
+		};
+		D48F197E1D3DDE650049EE2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D48F19571D3DDE650049EE2A /* FontingAwesome */;
+			targetProxy = D48F197D1D3DDE650049EE2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D48F19641D3DDE650049EE2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D48F19651D3DDE650049EE2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D48F19691D3DDE650049EE2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D48F196A1D3DDE650049EE2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D48F19831D3DDE650049EE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D48F19841D3DDE650049EE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D48F19861D3DDE650049EE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DABB7EFB9B24D06FE3C33A2 /* Pods-FontingAwesome.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FontingAwesome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = madina.FontingAwesome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D48F19871D3DDE650049EE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB414B592933127639425DF /* Pods-FontingAwesome.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FontingAwesome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = madina.FontingAwesome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D48F19891D3DDE650049EE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FontingAwesomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = madina.FontingAwesomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontingAwesome.app/FontingAwesome";
+			};
+			name = Debug;
+		};
+		D48F198A1D3DDE650049EE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FontingAwesomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = madina.FontingAwesomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontingAwesome.app/FontingAwesome";
+			};
+			name = Release;
+		};
+		D48F198C1D3DDE650049EE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FontingAwesomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = madina.FontingAwesomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FontingAwesome;
+			};
+			name = Debug;
+		};
+		D48F198D1D3DDE650049EE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FontingAwesomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = madina.FontingAwesomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FontingAwesome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D48F19531D3DDE650049EE2A /* Build configuration list for PBXProject "FontingAwesome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48F19831D3DDE650049EE2A /* Debug */,
+				D48F19841D3DDE650049EE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48F19851D3DDE650049EE2A /* Build configuration list for PBXNativeTarget "FontingAwesome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48F19861D3DDE650049EE2A /* Debug */,
+				D48F19871D3DDE650049EE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48F19881D3DDE650049EE2A /* Build configuration list for PBXNativeTarget "FontingAwesomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48F19891D3DDE650049EE2A /* Debug */,
+				D48F198A1D3DDE650049EE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48F198B1D3DDE650049EE2A /* Build configuration list for PBXNativeTarget "FontingAwesomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48F198C1D3DDE650049EE2A /* Debug */,
+				D48F198D1D3DDE650049EE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D48F19501D3DDE650049EE2A /* Project object */;
+}
